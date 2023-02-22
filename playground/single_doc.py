@@ -1,4 +1,6 @@
-# Single spaCy document example
+"""
+Single spaCy document example
+"""
 import spacy
 
 # Load spacy nlp pipeline object.
