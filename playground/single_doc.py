@@ -9,3 +9,4 @@ text = 'This is a sentence about nothing.'
 
 # Convert the string into a Doc object
 doc = nlp(text)
+print(doc)
