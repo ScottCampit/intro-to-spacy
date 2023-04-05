@@ -12,7 +12,14 @@ If you want to follow along with the tutorial, you can follow the sequence of st
 ```bash
 # current working directory is the parent dir (intro-to-spacy)
 mkdir .env
+
+# Create a virtual environment
 python3 -m venv .env/spacy-playground
 source .env/spacy-playground/bin/activate
+
+# Install necessary packages
+pip3 install -U pip setuptools wheel
 pip3 install -r requirements.txt
 ```
+
+For more information, visit <URL>
